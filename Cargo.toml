@@ -1,0 +1,10 @@
+[package]
+name = "u3-windows"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.42"
+u3 = { path = "../u3" }
+windows = { version = "0.62.2", features = ["Win32_System_Threading"] }
+winrt-notification = "0.5.1"
